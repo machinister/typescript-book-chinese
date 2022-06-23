@@ -45,6 +45,7 @@
     "strictNullChecks": true,              // 启用严格的 null 检查
     "noImplicitThis": true,                // 当 this 表达式值为 any 类型的时候，生成一个错误
     "alwaysStrict": true,                  // 以严格模式检查每个模块，并在每个文件里加入 'use strict'
+    "noEmitOnError": false,                // 编译的源文件中存在错误的时候不再输出编译结果文件
 
     /* 额外的检查 */
     "noUnusedLocals": true,                // 有未使用的变量时，抛出错误
